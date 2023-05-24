@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# React Calculator (Adder)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React calculator (adder) application that allows you to add and subtract values dynamically. It includes the following functionalities:
 
-## Available Scripts
+- You can add and remove rows.
+- Each row has a sign (minus or plus).
+- Each row can be enabled or disabled using a dedicated control button. Disabled rows are excluded from the addition.
+- The result is updated "live" as you type.
 
-In the project directory, you can run:
+## Default Values
 
-### `npm start`
+The calculator comes with the following default values:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Row 1: The value is set to 50, and the selected procedure is addition.
+- Row 2: The value is set to 20, and the selected procedure is subtraction.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run this React calculator locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine.
+2. Ensure you have Node.js and npm (Node Package Manager) installed.
+3. Open a terminal and navigate to the project directory.
+4. Install the dependencies by running the following command:
+5. After the installation is complete, start the development server:
+6. Open your browser and visit `http://localhost:3000` to see the calculator in action.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the React calculator is running, you can perform the following actions:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Add Row**: Click the "Add Row" button to add a new row with a default value of 0 and the selected procedure as addition.
+- **Remove Row**: Click the "Remove" button on any row to remove it from the calculation.
+- **Enable/Disable Row**: Toggle the switch button on each row to enable or disable it. Disabled rows will be excluded from the calculation.
+- **Enter Values**: Type in the input fields of each row to update the values. The result will be updated live as you type.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to modify the code or experiment with different values and procedures to suit your needs.
+## Demo
 
-### `npm run eject`
+Here's a quick demo of the React calculator in action:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Add Row
+- Remove Row
+- Enable/Disable Row
+- Enter Values
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![React Calculator Demo](demo.gif)](https://example.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Click the image to watch the demo video.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+This React calculator application was built using the following technologies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React: A JavaScript library for building user interfaces.
+- JSX: A syntax extension for embedding HTML-like code within JavaScript.
+- CSS: Used for styling the calculator components.
+- Antdesign: Used for Styled Components.
+- Redux Toolkit: Used for managing states throgh out App.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you have any questions or feedback. Happy calculating!
