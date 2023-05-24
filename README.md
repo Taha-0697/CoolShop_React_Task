@@ -44,10 +44,7 @@ Here's a quick demo of the React calculator in action:
 - Enable/Disable Row
 - Enter Values
 
-[![React Calculator Demo](demo.gif)](https://example.com)
-
-Click the image to watch the demo video.
-
+## https://coolshop-task-2.netlify.app/
 ## Technologies Used
 
 This React calculator application was built using the following technologies:
