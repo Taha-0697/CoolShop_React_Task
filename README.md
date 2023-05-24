@@ -44,9 +44,7 @@ Here's a quick demo of the React calculator in action:
 - Enable/Disable Row
 - Enter Values
 
-[![React Calculator Demo](demo.gif)](https://example.com)
-
-Click the image to watch the demo video.
+Abc.com
 
 ## Technologies Used
 
