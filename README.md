@@ -44,12 +44,9 @@ Here's a quick demo of the React calculator in action:
 - Enable/Disable Row
 - Enter Values
 
-<<<<<<< HEAD
-## https://coolshop-task-2.netlify.app/
-=======
-Abc.com
 
->>>>>>> bbc57740d48726a970f5c3c998f8ffc525ffeb08
+## https://coolshop-task-2.netlify.app/
+
 ## Technologies Used
 
 This React calculator application was built using the following technologies:
