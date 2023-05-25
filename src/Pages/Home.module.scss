@@ -21,7 +21,7 @@
         .scrollable {
             padding: 1em;
             overflow: auto;
-            max-height: 150px;
+            max-height: 300px;
             display: flex;
             flex: 1;
             flex-direction: column;
@@ -93,8 +93,51 @@
         .left {
             margin-top: 2em;
 
-            .inputs {
-                width: 250px !important;
+            .scrollable {
+                padding: 0;
+                overflow: hidden;
+                max-height: unset;
+
+                .inputs {
+                    width: 250px !important;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:586px) and (min-width:537px) {
+    .wrapper {
+
+        .left {
+            .scrollable {
+                padding: 0;
+                overflow: hidden;
+                max-height: unset;
+
+                .inputs {
+                    width: 200px !important;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:536px) and (min-width:50px) {
+    .wrapper {
+
+        .left {
+            .scrollable {
+                padding: 0;
+                overflow: hidden;
+                max-height: unset;
+
+                .inputs {
+                    width: 85px !important;
+                }
+
             }
         }
     }

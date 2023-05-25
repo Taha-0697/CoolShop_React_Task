@@ -1,4 +1,5 @@
 @import "../../variable.scss";
+
 .buttonContainer {
   outline: none;
   background: #272a3d;
@@ -16,15 +17,18 @@
 .hover_light {
   &:hover {
     background-color: $dark !important;
+
     p {
       color: $clr_white !important;
     }
   }
 }
+
 .hover {
   &:hover {
     background-color: $clr_white !important;
     border: solid 1px $dark !important;
+
     p {
       color: $dark !important;
     }
@@ -33,4 +37,13 @@
 
 .buttonContainer:active {
   transform: scale(0.9);
+}
+
+
+@media screen and (max-width: 450px) and (min-width:50px) {
+
+  .buttonContainer {
+    padding: 7px 6.01px;
+
+  }
 }

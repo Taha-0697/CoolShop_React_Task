@@ -3,16 +3,17 @@ import Home from './Pages/Home'
 import Section from './components/Section/Section'
 import { Layout } from 'antd'
 import Header from './components/Header/Header'
+import classlist from './App.module.scss'
 
 const { Footer } = Layout
 const App = () => {
   return (
-    <>
-      <Section background={'#3f559394'}>
+    <div className={classlist.wrapper} >
+      <Section>
         <Header>CoolShop React calculator (adder) </Header>
         <Home />
       </Section>
-      <Footer className='footer'>
+      <Footer className={classlist.footer}>
         CoolShop Task ©2023 (
         <a
           style={{
@@ -27,7 +28,7 @@ const App = () => {
         </a>
         )
       </Footer>
-    </>
+    </div>
   )
 }
 
